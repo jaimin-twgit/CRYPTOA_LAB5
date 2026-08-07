@@ -1,0 +1,282 @@
+    1  sudo apt-get update
+    2  sudo apt-get upgrade
+    3  sudo apt install wipe
+    4  sudo apt install plocate
+    5  [200~sudo apt install finger
+    6  ~sudo apt install finger
+    7  sudo apt install finger
+    8  sudo apt install traceroute
+    9  ps -ef
+   10  kill 65383
+   11  pwd
+   12  ls
+   13  mkdir 1794
+   14  cd 1794
+   15  rm
+   16  rmdir
+   17  -~
+   18  cd
+   19  rmdir
+   20  mkdir 1794
+   21  rmdir 1794
+   22  cd 1794
+   23  mkdir 1794
+   24  cd 1794
+   25  gedit 1.py
+   26  rmdir 1794
+   27  rmdir 1794
+   28  rm 1794
+   29  rm -r 1794
+   30  cd 1794
+   31  who
+   32  uname
+   33  uname -a
+   34  tree
+   35  ln 7967 link
+   36  mkdir 1794
+   37  cd 1794
+   38  gedit lab.txt
+   39  head lab.txt
+   40  tail lab.txt
+   41  cat lab.txt
+   42  more lab.txt
+   43  locate lab.txt
+   44  wipe lab.txt
+   45  gedit lab.txt
+   46  cd
+   47  ps
+   48  ps -ef
+   49  kill 64048
+   50  kill 25213
+   51  cd 1794
+   52  touch 1.txt
+   53  ls
+   54  gedit 1.txt
+   55  diff lab.txt 1.txt
+   56  cmp lab.txt 1.txt
+   57  less lab.txt
+   58  ls
+   59  less Assignment 1.pdf
+   60  less 'Assignment 1.pdf'
+   61  more 'Assignment 1.pdf'
+   62  shred 1.txt
+   63  head 1.txt
+   64  top
+   65  fork();
+   66  ifconfig
+   67  ping
+   68  finger
+   69  iptables
+   70  traceroute
+   71  curl
+   72  curl 1.txt
+   73  curl --help
+   74  netstat
+   75  tcpdump
+   76  nft
+   77  ufw
+   78  du
+   79  cd
+   80  du
+   81  whoami
+   82  whereis
+   83  nft
+   84  nfttables
+   85  nftables
+   86  which clear
+   87  man sudo
+   88  wget URL
+   89  script lab1.txt
+   90  /home/mnitcs/2025ucp1941/first
+   91  ls
+   92  cd ..
+   93  ls
+   94  cd ..
+   95  ls
+   96  cd home
+   97  ls
+   98  cd mnitcs
+   99  ls
+  100  cd ..
+  101  cd mnitcse
+  102  cd mnitcs
+  103  clear
+  104  ls
+  105  mkdir 2025ucp1941
+  106  cd 2025ucp1941
+  107  ls
+  108  gedit main.cpp
+  109  gcc main.cpp
+  110  g++ main.cpp
+  111  ./a.out
+  112  clear
+  113  g++ main.cpp
+  114  g++ first.cpp
+  115  ./a.out
+  116  g++ main.cpp
+  117  ./a.out
+  118  g++ main.cpp
+  119  ./a.out
+  120  clear
+  121  gcc linkedlist.cpp
+  122  gcc linkedlist.cpp
+  123  /home/mnitcs/1580/linkedlist
+  124  gcc linkedlist.cpp
+  125  /home/mnitcs/1580/linkedlist
+  126  gcc linkedlist.cpp
+  127  mkdir TODAY LAB
+  128  dc TODAY LAB
+  129  mkdir main.cpp
+  130  gedit main.cpp
+  131  g++ main.cpp -c 
+  132  gcc header.cpp
+  133  gcc header.hpp
+  134  g++ main.cpp header.hpp -c
+  135  gcc main.cpp
+  136  clear
+  137  gcc main.cpp
+  138  clear
+  139  g++ main.cpp def.cpp -c
+  140  g++ main.cpp def.cpp -c program
+  141  g++ main.cpp  def.cpp -o program
+  142  .\program
+  143  .\program.exe
+  144  g++ main.cpp def.cpp -c program.exe
+  145  ./program
+  146  mkdir 2025ucp1428
+  147  cd 2025ucp1428
+  148  touch main.cpp
+  149  gedit main.cpp
+  150  touch header.h
+  151  gedit header.h
+  152  g++ main.cpp def.cpp -c gram
+  153  gcc main.cpp
+  154  clear
+  155  g++ main.cpp def.cpp -o final
+  156  ./final
+  157  g++ main.cpp def.cpp -o program
+  158  g++ main.cpp def.cpp -c program
+  159  g++ main.cpp def.cpp -c gram
+  160  g++ main.cpp def.cpp -o program
+  161  ./program
+  162  gcc pass.cpp
+  163  g++ pass.cpp -o pro
+  164  .\pro
+  165  ./pro
+  166  g++ main.cpp def.cpp -o program
+  167  ./program
+  168  gcc pass.cpp
+  169  g++ pass.cpp 0
+  170  g++ pass.cpp -o 
+  171  g++ pass.cpp -o perfect
+  172  ./perfect
+  173  clear
+  174  g++ main.cpp def.cpp -o studentodMNIT
+  175  g++ main.cpp def.cpp -o krish
+  176  ./krish
+  177  g++ main.cpp -o
+  178  gcc main.cpp
+  179  clear
+  180  g++ main.cpp def.cpp -o program
+  181  ./program
+  182  gcc main.cpp
+  183  clear
+  184  g++ main.cpp def.cpp -o program
+  185  ./program
+  186  mkdir 2025UCP1186
+  187  cd 2025UCP1186
+  188  nano code.cpp
+  189  gcc code.cpp
+  190  nano code.cpp
+  191  gcc code.cpp
+  192  nano code.cpp
+  193  ls -l /proc
+  194  gedit monitor.sh
+  195  chmod +x monitor.sh
+  196  ./monitor.sh
+  197  gedit system_performance.csv
+  198  ls
+  199  gedit 1.c
+  200  gcc 1.c
+  201  ./a.out
+  202  gedit 1.c
+  203  gcc 1.c
+  204  ./a.out
+  205  gedit 1.c
+  206  gedit fork.c
+  207  exit
+  208  ls -l /proc
+  209  cd proc
+  210  cd \proc
+  211  cd /proc
+  212  meminfo
+  213  tty
+  214  version
+  215  cd
+  216  cd 1794
+  217  gedit 1.py
+  218  gedit 1.c
+  219  gcc 1.c
+  220  ./a.out
+  221  gedit 2.c
+  222  gcc 2.c
+  223  ./a.out
+  224  sudo sysctl -w kernel.randomize_va_space=0
+  225  sudo sysctl -w kernel.randomize_va_space=2
+  226  script av.log
+  227  gedit fork.c
+  228  gcc pav1.cpp
+  229  gcc pav.cpp
+  230  ls
+  231  cd ./2025ucp1102/ass/2025ucp1937/
+  232  g++ pav.cpp
+  233  ls
+  234  g++ pav.cpp
+  235  g++ pavmain.cpp
+  236  g++ pav.cpp
+  237  g++ pavmain.cpp
+  238  g++ pavmain.hpp
+  239  g++ pav.hpp
+  240  clear
+  241  g++ pav.hpp
+  242  [200~g++ pavmain.cpp pav.cpp -o program
+  243  g++ pavmain.cpp pav.cpp -o program
+  244  clear
+  245  g++ pavmain.cpp pav.cpp -o program
+  246  ./a.out
+  247  /a.out
+  248  g++ pavmain.cpp pav.cpp -o program
+  249  /a.out
+  250  ./a.out
+  251  a.out
+  252  g++ pavmain.cpp pav.cpp -o program
+  253  clear
+  254  g++ pavmain.cpp pav.cpp -o program
+  255  ls
+  256  cd 2025ucp1937
+  257  g++ pavmain.cpp pav.cpp -o program
+  258  clear
+  259  g++ pavmain.cpp pav.cpp -o program
+  260  g++ pavmain.cpp -o program
+  261  g++ pavmain.cpp -o program -l pav.cpp
+  262  g++ pavmain.cpp pav.cpp -o program
+  263  ./program
+  264  g++ pavmain.cpp pav.cpp -o program
+  265  ./program
+  266  clear
+  267  g++ pavmain.cpp pav.cpp -o program
+  268  ./program
+  269  g++ pavmain.cpp pav.cpp -o program
+  270  g++ main.cpp definition.cpp
+  271  g++ main.cpp definition.cpp -o linkedlist
+  272  cd linkedlist
+  273  g++ main.cpp definition.cpp -o app
+  274  ./app
+  275  clear
+  276  g++ main.cpp definition.cpp -o app
+  277  ./app
+  278  clear
+  279  cd linkedlist
+  280  g++ main.cpp definition.cpp -o app
+  281  ./app
+  282  history > command_history.txt
