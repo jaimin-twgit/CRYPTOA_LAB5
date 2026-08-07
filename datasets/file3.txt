@@ -1,0 +1,1 @@
+Substitution ciphers replace plaintext letters with ciphertext.
