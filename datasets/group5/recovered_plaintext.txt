@@ -1,0 +1,15 @@
+Tse yirm tse an wouuem niwetawen ti CLE, niwetawen ti LAA, ohm niwetawen ti VSS. Siyexer, at an wouuem tyade ti LAA, ohm ah o lihk ehicks tevt at an lajelp tsot at yiclm be wouuem wcltaule tawen ti eods uinnabalatp. Jonanja'n ibnerxotaih yon tsot tse mantohde betyeeh ncds reueotem ouueorohden (onncwahk tsep ore hit diahdamehtol) an o wcltaule if tse ueraim. (Ah tse obixe evowule, tse ueraim an 5 ohm tse mantohde betyeeh tse tyi ouueorohden if LAA an 30, ysads an 6 tawen tse ueraim.) Tserefire, tse kreotent diwwih maxanir if tse mantohden betyeeh reueotem negcehden (onncwahk tsep ore hit diahdamehtol) yall paelm tse jep lehkts t ir o wcltaule tsereif.
+
+Oh olterhotaxe ouuriods, dollem tse ahmev if diahdamehde wetsim, an wire wetsimadol ohm sehde eonaer ti octiwote. Redoll tsot af tse jep lehkts an t, tseh tse dausertevt dsorodtern
+
+d1, d1+t, d1+2t, ...
+
+ah tse farnt ntreow oll rencltem friw ehdrputaih cnahk tse nowe nsaft. Tsan weohn tsot tse fregcehdaen if tse dsorodtern ah tsan negcehde ore evuedtem ti be amehtadol ti tse dsorodter fregcehdaen if ntohmorm Ehklans tevt ah niwe nsaftem irmer. Ah wire metoal: let ga mehite tse ibnerxem fregcehdp if tse ats letter ah tsan ntreow; tsan an nawulp tse hcwber if iddcrrehden if tse ats letter if tse olusobet maxamem bp tse titol hcwber if lettern ah tse ntreow. Af tse nsaft cnem sere an q (a.e., af tse farnt dsorodter j1 if tse jep an egcol ti q), tseh fir oll a ye evuedt g(a+q) ouurivawotelp egcol ti ua, ysere ua an tse fregcehdp if tse ats letter if tse olusobet ah ntohmorm Ehklans tevt. (Ihde okoah, ye cne g(a+q) ah ulode if g[(a+q) wim 26].) Bct tsan weohn tsot tse negcehde g0, ..., g25 an qcnt tse negcehde u0, ..., u25 nsaftem q uloden. On o dihnegcehde (df. Egcotaih (1.1)):
+
+ncw friw a=0 ti 25 if ga^2 ouurivawotelp egcol ti ncw friw a=0 ti 25 if ua^2 ouurivawotelp egcol ti 0.065.
+
+Tsan leomn ti o hade yop ti meterwahe tse jep lehkts t. Fir toc = 1, 2, ..., T, liij ot tse negcehde if dausertevt dsorodtern d1, d1+toc, d1+2toc, ... ohm tobclote g0, ..., g25 fir tsan negcehde. Tseh diwucte
+
+N_toc = ncw friw a=0 ti 25 if ga^2.
+
+Yseh toc = t ye evuedt N_toc ouurivawotelp egcol ti 0.065, on mandcnnem obixe. Ih tse itser sohm, af toc an hit o wcltaule if t ye evuedt tsot oll dsorodtern yall iddcr yats rickslp egcol uribobalatp ah tse negcehde d1, d1+toc, d1+2toc, ... ohm ni ye evuedt ga ouurivawotelp egcol ti 1/26 fir oll a. Ah tsan done ye yall ibtoah
