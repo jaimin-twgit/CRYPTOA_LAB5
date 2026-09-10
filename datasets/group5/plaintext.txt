@@ -1,0 +1,15 @@
+The word the is mapped sometimes to ULE, sometimes to LII, and sometimes to XHH. However, it is mapped twice to LII, and in a long enough text it is likely that it would be mapped multiple times to each possibility. Kasiski's observation was that the distance between such repeated appearances (assuming they are not coincidental) is a multiple of the period. (In the above example, the period is 5 and the distance between the two appearances of LII is 30, which is 6 times the period.) Therefore, the greatest common divisor of the distances between repeated sequences (assuming they are not coincidental) will yield the key length t or a multiple thereof.
+
+An alternative approach, called the index of coincidence method, is more methodical and hence easier to automate. Recall that if the key length is t, then the ciphertext characters
+
+c1, c1+t, c1+2t, ...
+
+in the first stream all resulted from encryption using the same shift. This means that the frequencies of the characters in this sequence are expected to be identical to the character frequencies of standard English text in some shifted order. In more detail: let qi denote the observed frequency of the ith letter in this stream; this is simply the number of occurrences of the ith letter of the alphabet divided by the total number of letters in the stream. If the shift used here is j (i.e., if the first character k1 of the key is equal to j), then for all i we expect q(i+j) approximately equal to pi, where pi is the frequency of the ith letter of the alphabet in standard English text. (Once again, we use q(i+j) in place of q[(i+j) mod 26].) But this means that the sequence q0, ..., q25 is just the sequence p0, ..., p25 shifted j places. As a consequence (cf. Equation (1.1)):
+
+sum from i=0 to 25 of qi^2 approximately equal to sum from i=0 to 25 of pi^2 approximately equal to 0.065.
+
+This leads to a nice way to determine the key length t. For tau = 1, 2, ..., T, look at the sequence of ciphertext characters c1, c1+tau, c1+2tau, ... and tabulate q0, ..., q25 for this sequence. Then compute
+
+S_tau = sum from i=0 to 25 of qi^2.
+
+When tau = t we expect S_tau approximately equal to 0.065, as discussed above. On the other hand, if tau is not a multiple of t we expect that all characters will occur with roughly equal probability in the sequence c1, c1+tau, c1+2tau, ... and so we expect qi approximately equal to 1/26 for all i. In this case we will obtain
