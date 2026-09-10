@@ -1,0 +1,15 @@
+Zit vgkr zit ol dqhhtr lgdtzodtl zg XST, lgdtzodtl zg SOO, qfr lgdtzodtl zg BII. Igvtctk, oz ol dqhhtr zvoet zg SOO, qfr of q sgfu tfgxui ztbz oz ol soatsn ziqz oz vgxsr wt dqhhtr dxszohst zodtl zg tqei hgllowosozn. Aqlolao'l gwltkcqzogf vql ziqz zit rolzqfet wtzvttf lxei kthtqztr qhhtqkqfetl (qllxdofu zitn qkt fgz egofeortfzqs) ol q dxszohst gy zit htkogr. (Of zit qwgct tbqdhst, zit htkogr ol 5 qfr zit rolzqfet wtzvttf zit zvg qhhtqkqfetl gy SOO ol 30, vioei ol 6 zodtl zit htkogr.) Zitktygkt, zit uktqztlz egddgf rocolgk gy zit rolzqfetl wtzvttf kthtqztr ltjxtfetl (qllxdofu zitn qkt fgz egofeortfzqs) voss notsr zit atn stfuzi z gk q dxszohst zitktgy.
+
+Qf qsztkfqzoct qhhkgqei, eqsstr zit ofrtb gy egofeortfet dtzigr, ol dgkt dtzigroeqs qfr itfet tqlotk zg qxzgdqzt. Kteqss ziqz oy zit atn stfuzi ol z, zitf zit eohitkztbz eiqkqeztkl
+
+e1, e1+z, e1+2z, ...
+
+of zit yoklz lzktqd qss ktlxsztr ykgd tfeknhzogf xlofu zit lqdt lioyz. Ziol dtqfl ziqz zit yktjxtfeotl gy zit eiqkqeztkl of ziol ltjxtfet qkt tbhteztr zg wt ortfzoeqs zg zit eiqkqeztk yktjxtfeotl gy lzqfrqkr Tfusoli ztbz of lgdt lioyztr gkrtk. Of dgkt rtzqos: stz jo rtfgzt zit gwltkctr yktjxtfen gy zit ozi stzztk of ziol lzktqd; ziol ol lodhsn zit fxdwtk gy geexkktfetl gy zit ozi stzztk gy zit qshiqwtz rocortr wn zit zgzqs fxdwtk gy stzztkl of zit lzktqd. Oy zit lioyz xltr itkt ol p (o.t., oy zit yoklz eiqkqeztk a1 gy zit atn ol tjxqs zg p), zitf ygk qss o vt tbhtez j(o+p) qhhkgbodqztsn tjxqs zg ho, vitkt ho ol zit yktjxtfen gy zit ozi stzztk gy zit qshiqwtz of lzqfrqkr Tfusoli ztbz. (Gfet quqof, vt xlt j(o+p) of hsqet gy j[(o+p) dgr 26].) Wxz ziol dtqfl ziqz zit ltjxtfet j0, ..., j25 ol pxlz zit ltjxtfet h0, ..., h25 lioyztr p hsqetl. Ql q egfltjxtfet (ey. Tjxqzogf (1.1)):
+
+lxd ykgd o=0 zg 25 gy jo^2 qhhkgbodqztsn tjxqs zg lxd ykgd o=0 zg 25 gy ho^2 qhhkgbodqztsn tjxqs zg 0.065.
+
+Ziol stqrl zg q foet vqn zg rtztkdoft zit atn stfuzi z. Ygk zqx = 1, 2, ..., Z, sgga qz zit ltjxtfet gy eohitkztbz eiqkqeztkl e1, e1+zqx, e1+2zqx, ... qfr zqwxsqzt j0, ..., j25 ygk ziol ltjxtfet. Zitf egdhxzt
+
+L_zqx = lxd ykgd o=0 zg 25 gy jo^2.
+
+Vitf zqx = z vt tbhtez L_zqx qhhkgbodqztsn tjxqs zg 0.065, ql rolexlltr qwgct. Gf zit gzitk iqfr, oy zqx ol fgz q dxszohst gy z vt tbhtez ziqz qss eiqkqeztkl voss geexk vozi kgxuisn tjxqs hkgwqwosozn of zit ltjxtfet e1, e1+zqx, e1+2zqx, ... qfr lg vt tbhtez jo qhhkgbodqztsn tjxqs zg 1/26 ygk qss o. Of ziol eqlt vt voss gwzqof
