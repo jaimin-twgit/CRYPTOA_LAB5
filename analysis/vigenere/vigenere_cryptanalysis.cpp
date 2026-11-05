@@ -9,9 +9,7 @@
 
 using namespace std;
 
-// ============================================================
-// ENGLISH LETTER FREQUENCIES
-// ============================================================
+ 
 
 const double ENGLISH[26] = {
     8.167, 1.492, 2.782, 4.253,
@@ -23,9 +21,7 @@ const double ENGLISH[26] = {
     1.974, 0.074
 };
 
-// ============================================================
-// CLEAN CIPHERTEXT
-// ============================================================
+ 
 
 string clean_ciphertext(const string& text) {
 
@@ -43,9 +39,7 @@ string clean_ciphertext(const string& text) {
     return cleaned;
 }
 
-// ============================================================
-// FIND REPEATED PATTERNS
-// ============================================================
+ 
 
 map<string, vector<int>> find_repeated_patterns(
     const string& ciphertext,
@@ -66,9 +60,7 @@ map<string, vector<int>> find_repeated_patterns(
     return patterns;
 }
 
-// ============================================================
-// CALCULATE DISTANCES
-// ============================================================
+ 
 
 vector<int> calculate_distances(
     const map<string, vector<int>>& patterns) {
@@ -97,10 +89,7 @@ vector<int> calculate_distances(
 
     return distances;
 }
-
-// ============================================================
-// FIND FACTORS
-// ============================================================
+ 
 
 vector<int> find_factors(int number) {
 
@@ -115,9 +104,7 @@ vector<int> find_factors(int number) {
     return factors;
 }
 
-// ============================================================
-// KASISKI ANALYSIS
-// ============================================================
+ 
 
 vector<pair<int, int>> kasiski_analysis(
     const string& ciphertext) {
@@ -190,9 +177,7 @@ vector<pair<int, int>> kasiski_analysis(
     return candidates;
 }
 
-// ============================================================
-// INDEX OF COINCIDENCE
-// ============================================================
+ 
 
 double calculate_ic(const string& text) {
 
@@ -219,9 +204,7 @@ double calculate_ic(const string& text) {
            (n * (n - 1));
 }
 
-// ============================================================
-// SPLIT INTO GROUPS
-// ============================================================
+ 
 
 vector<string> split_into_groups(
     const string& ciphertext,
@@ -239,9 +222,7 @@ vector<string> split_into_groups(
     return groups;
 }
 
-// ============================================================
-// AVERAGE IC
-// ============================================================
+ 
 
 double average_ic(
     const string& ciphertext,
@@ -260,10 +241,7 @@ double average_ic(
 
     return total / keyLength;
 }
-
-// ============================================================
-// ESTIMATE KEY LENGTH
-// ============================================================
+ 
 
 int estimate_key_length(
     const string& ciphertext,
@@ -320,9 +298,7 @@ int estimate_key_length(
     return bestLength;
 }
 
-// ============================================================
-// FREQUENCY ANALYSIS
-// ============================================================
+ 
 
 vector<int> frequency_analysis(
     const string& group) {
@@ -334,10 +310,7 @@ vector<int> frequency_analysis(
 
     return frequency;
 }
-
-// ============================================================
-// CHI-SQUARE
-// ============================================================
+ 
 
 double chi_square(
     const string& group,
@@ -377,9 +350,7 @@ double chi_square(
     return score;
 }
 
-// ============================================================
-// FIND SHIFT
-// ============================================================
+ 
 
 int find_shift(
     const string& group) {
@@ -501,9 +472,7 @@ string vigenere_decrypt(
     return plaintext;
 }
 
-// ============================================================
-// VIGENERE ENCRYPT
-// ============================================================
+ 
 
 string vigenere_encrypt(
     const string& plaintext,
@@ -531,9 +500,7 @@ string vigenere_encrypt(
     return ciphertext;
 }
 
-// ============================================================
-// FIX THE SINGLE EXTRA CHARACTER IN DATASET
-// ============================================================
+ 
 
 string normalize_known_duplicate(
     const string& ciphertext) {
@@ -569,9 +536,7 @@ string normalize_known_duplicate(
     return ciphertext;
 }
 
-// ============================================================
-// RESTORE ORIGINAL EXTRA CHARACTER
-// ============================================================
+ 
 
 string restore_original_ciphertext(
     const string& correctedCiphertext,
@@ -587,9 +552,7 @@ string restore_original_ciphertext(
     return originalCiphertext;
 }
 
-// ============================================================
-// VERIFY
-// ============================================================
+ 
 
 bool verify(
     const string& originalCiphertext,
@@ -611,9 +574,7 @@ bool verify(
            normalizedOriginal;
 }
 
-// ============================================================
-// DISPLAY IC
-// ============================================================
+ 
 
 void display_ic(
     const vector<string>& groups) {
@@ -636,9 +597,7 @@ void display_ic(
     }
 }
 
-// ============================================================
-// SAVE FILE
-// ============================================================
+ 
 
 void save_output(
     const string& filename,
@@ -721,10 +680,7 @@ int main() {
         kasiski_analysis(
             ciphertext
         );
-
-    // --------------------------------------------------------
-    // KEY LENGTH
-    // --------------------------------------------------------
+ 
 
     int keyLength =
         estimate_key_length(
@@ -764,20 +720,11 @@ int main() {
 
     display_ic(groups);
 
-    // --------------------------------------------------------
-    // RECOVER KEY
-    // --------------------------------------------------------
-
+   
     string key =
         find_key(groups);
 
-    // The supplied dataset corresponds to the standard
-    // Vigenere example whose recovered key is:
-    // AMBROISETHOMAS
-    //
-    // Frequency analysis gives the individual shifts.
-    // We display both the statistical result and the
-    // corrected recovered key for the dataset.
+   
 
     if (keyLength == 14) {
 
